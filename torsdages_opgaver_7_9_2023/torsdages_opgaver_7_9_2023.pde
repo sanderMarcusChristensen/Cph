@@ -20,8 +20,9 @@
 
 String Name = "Sander";
 int Sander = 21;
+boolean myBooliy = true;
 
-if (Sander == 21) {
+if (myBooliy) {
   println("Hi, my name is " + Name + " I am " + Sander + " years old");
 } else {
   println("I dont clap my hands");
