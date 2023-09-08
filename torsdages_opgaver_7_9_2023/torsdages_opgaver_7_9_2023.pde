@@ -37,7 +37,7 @@ if (myBooliy) {
 int a = 10;
 int b = 0; 
 
-if ( a <= a && a+b = a){
+if ( a <= a || a+b = a || b = 10 ){
   println("Succes!");
 } else {
   println("Faliure!");
@@ -52,7 +52,7 @@ if ( a <= a && a+b = a){
 int min = 4;
 int max = 8;
 
-if ( min + max > 10) {
+if ( min + max > 10 && min < 5 || max > 5) {
   print("Success!"); 
 } else {
   println("Nope");
@@ -66,7 +66,13 @@ if ( min + max > 10) {
 
 int x = 9; 
 int y  = 18; 
-int z = 3; 
+int z = 3;
+
+if( x+y+z == 10 && x != 10 && x != 20 && x != 30 && y != 10 && y != 20 && y != 30 && z != 10 && z != 20 && z != 30){
+  println("Yessir");
+} else {
+  println("Nope");
+}
 
 */
 
