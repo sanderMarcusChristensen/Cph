@@ -100,6 +100,8 @@ for(int x = 0; x < 21; x+= 2) {
 
    //Opgave 4.C
    
+ void darw(){
+ 
  for(int start = 10; start > 0; start--){
    println(start);
    }
@@ -119,19 +121,19 @@ for(int x = 0; x < 21; x+= 2) {
    
    switch(x) {
    case 1:
-   println("One");
-   break;
+     println("One");
+     break;
    case 2:
-   println("Too");
-   break;
+     println("Too");
+     break;
    case 3:
-   println("Three");
-   break;
+     println("Three");
+     break;
    case 0:
-   println("Take off");
-   break;
+     println("Take off");
+     break;
    default:
-   println(x);
+     println(x);
    }
    }
    }
@@ -147,19 +149,19 @@ for(int x = 0; x < 21; x+= 2) {
    
    switch(x) {
    case 1:
-   println("One");
-   break;
+     println("One");
+     break;
    case 2:
-   println("Too");
-   break;
+     println("Too");
+     break;
    case 3:
-   println("Three");
-   break;
+     println("Three");
+     break;
    case 0:
-   println("Take off");
-   break;
+     println("Take off");
+     break;
    default:
-   println(x);
+     println(x);
    } 
    x--;
    }
