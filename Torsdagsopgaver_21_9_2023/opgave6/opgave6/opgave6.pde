@@ -7,7 +7,7 @@ int[][] board = new int [8][8];
 void setup()
 {
   
-  size(300,300);
+  size(320,320);
   
   for(int i = 0; i < board.length; i++)
   {
