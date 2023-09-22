@@ -11,10 +11,10 @@ void setup()
   
   for(int i = 0; i < board.length; i++)
   {
-    for(int a = 0; a < board[i].length; a++)
+    for(int j = 0; j < board[i].length; j++)
     {
       
-      board[i][a] = (i+a) % 2;
+      board[i][j] = (i+j) % 2;
       
     }
   }
@@ -27,17 +27,17 @@ int sideLength = 40;
 
 for(int i = 0; i < board.length; i++)
   {
-    for(int a = 0; a < board[i].length; a++)
+    for(int j = 0; j < board[i].length; j++)
     {
      
-     if(board[i][a] == 0)
+     if(board[i][j] == 0)
      
        fill(0);
         else 
        fill(255);
      
      
-     rect(i * sideLength, a * sideLength, sideLength, sideLength);
+     rect(i * sideLength, j * sideLength, sideLength, sideLength);
       
     }
   }

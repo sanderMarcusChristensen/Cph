@@ -7,7 +7,7 @@
  {
  
  getRandom();
- println(getRandom());
+ println(getRandom());  
  }
  
  
@@ -22,7 +22,7 @@
  
  return b;
  }
- */
+*/
 
 
 
@@ -54,7 +54,7 @@ String printPartOfWord(String str, int start, int len)
 void setup()
 {
 String[] Rappers = {"Reggie", "Eminem", "Tupac", "PoloG", "Logic"};
-String[] Songs = {"At the door", "Till i collapse", "Dear mama", "Martin & Gina", "EveryBody"}; 
+String[] Songs = {"At the door", "Till i collapse", "Dear mama", "Pop out", "Everyday"}; 
 
   for(int i = 0; i < Rappers.length; i++)
   {
