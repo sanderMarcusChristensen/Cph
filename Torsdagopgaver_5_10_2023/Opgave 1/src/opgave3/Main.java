@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
 
-    public static void main (String args)
+    public static void main (String[] args)
     {
         Room R1 = new Room(1,2,3);
         Room R2 = new Room(2,3,4);
@@ -16,7 +16,15 @@ public class Main {
         listR.add(R2);
         listR.add(R3);
 
+
         Building B1 = new Building(listR, 1, 1, true);
+
+        System.out.println(countLampsInBuilding(B1));
+        System.out.println(isNormal(B1));
+
+
+
+
 
     }
 
@@ -37,14 +45,16 @@ public class Main {
 
     public static boolean isNormal(Building build)
     {
-        if(build.getNumberOfFloors() > build.getRooms().size() )
+        if(build.getNumberOfFloors() < build.getRooms().size() )
         {
             return true;
 
         }
         else
         {
+            System.out.println("OH HEL NAH");
             return false;
+
         }
     }
 

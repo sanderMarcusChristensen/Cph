@@ -7,8 +7,10 @@ public class Main {
     public static void main(String[] args)
     {
         ArrayList <Customer> COS = new ArrayList<>();
-        COS.add(new Customer("Sander" , "Christensen", "Iceboy"));
-        printCustomers(COS);
+        COS.add(new Customer("Sander" , "Christensen", "SC"));
+        COS.add(new Customer("Jens" , "Peter", "JP"));
+        COS.add(new Customer("Anne" , "Hansen", "AH"));
+        System.out.println(COS);
 
 
 

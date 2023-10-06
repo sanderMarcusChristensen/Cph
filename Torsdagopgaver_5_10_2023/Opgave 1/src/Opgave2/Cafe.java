@@ -31,9 +31,9 @@ public class Cafe {
     }
 
 
-    public ArrayList<String> getCoffeeMenu() {
-        return coffeeMenu;
-    }
+    //public ArrayList<String> getCoffeeMenu() {
+        //return coffeeMenu;
+    //}
 
 
 }
