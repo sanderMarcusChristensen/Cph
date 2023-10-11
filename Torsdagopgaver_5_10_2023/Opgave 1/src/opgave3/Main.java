@@ -23,9 +23,6 @@ public class Main {
         System.out.println(isNormal(B1));
 
 
-
-
-
     }
 
     public static int countLampsInBuilding(Building build)

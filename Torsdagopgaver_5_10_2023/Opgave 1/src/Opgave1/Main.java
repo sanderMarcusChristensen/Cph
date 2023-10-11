@@ -10,6 +10,7 @@ public class Main {
         COS.add(new Customer("Sander" , "Christensen", "SC"));
         COS.add(new Customer("Jens" , "Peter", "JP"));
         COS.add(new Customer("Anne" , "Hansen", "AH"));
+
         System.out.println(COS);
 
 

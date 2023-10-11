@@ -6,7 +6,7 @@ public class Room {
     private int nummberOfLamps;
     private int nummberOfWindows;
 
-    Room(int nummberOfDoors, int nummberOfLamps, int nummberOfWindows)
+    public Room(int nummberOfDoors, int nummberOfLamps, int nummberOfWindows)
     {
         this.nummberOfDoors = nummberOfDoors;
         this.nummberOfLamps = nummberOfLamps;
