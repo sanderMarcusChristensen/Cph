@@ -18,7 +18,7 @@ public class Teacher extends Person {
     public boolean addCourse(String course) {
         if (canTeach.contains(course) && !currentCoursesT.contains(course)) {
             currentCoursesT.add(course);
-            System.out.println("yessir");
+            System.out.println("Yes Teacher");
             return true;
         }
 

@@ -11,7 +11,7 @@ public class Cinema {
         this.seats = new String[rows][seats];
         for(int i = 0; i < this.seats.length; i++)
         {
-            for(int j = 0; j < this.seats[i].length; i++)
+            for(int j = 0; j < this.seats[i].length; j++)
             {
                 this.seats[i][j] = "0";
             }

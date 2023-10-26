@@ -20,12 +20,12 @@ public class Student extends Person
     {
         if(passedCourses.contains(course) || currentCourses.contains(course))
         {
-            System.out.println("No");
+            System.out.println("No student");
             return false;
         }
         else
         {
-            System.out.println("Yes");
+            System.out.println("Yes student");
             currentCourses.add(course);
             return true;
 
